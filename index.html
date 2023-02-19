@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login with data from JSON</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<script type="text/javascript" src="login.js"></script>
+</head>
+<body>
+	<div class="login">	
+	<h1>Log in</h1>
+		<form action="#" method="POST" id="form" onsubmit="return false">
+			<label for="username">
+				<span>Username</span>
+				<input type="text" name="user" id="username" placeholder="Your user">
+			</label>
+			<label for="password">
+				<span>Password</span>
+				<input type="password" name="password" id="password" placeholder="Your password">
+			</label>
+			<label id="errors"></label>
+			<label for="submit">
+				<span>
+					<input type="submit" name="submit" id="submit" value="Log in">
+				</span>
+			</label>
+			
+		</form>
+	</div>
+</body>
+</html>
